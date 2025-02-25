@@ -2,12 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #63957a;
+    background-color: #63957a;  /* Your chosen background color */
     text-align: center;
+    color: white; /* Make text readable against the background */
 }
 
 header {
-    background: #63957a;
+    background: #333;
     color: white;
     padding: 1em;
 }
@@ -41,10 +42,11 @@ nav ul li a {
 }
 
 footer {
-    background: #63957a;
+    background: #222;
     color: white;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
