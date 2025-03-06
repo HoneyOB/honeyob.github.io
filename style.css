@@ -1,52 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #63957a;  /* Full background color */
     text-align: center;
-    color: white; /* Ensuring text is readable */
 }
 
-header {
-    background: #63957a; /* Matching header to the background */
-    color: white;
-    padding: 1em;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.intro {
-    padding: 50px;
-}
-
-.btn {
-    display: inline-block;
-    background: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-footer {
-    background: #63957a; /* Matching footer to the background */
-    color: white;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.vine {
+    margin-top: 50px;
+    max-width: 100%;
 }
 
