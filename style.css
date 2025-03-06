@@ -1,11 +1,31 @@
 body {
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-.vine {
+.vine-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
-    max-width: 100%;
 }
 
+.vine-container img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+.foreground-vine {
+    z-index: 2;
+}
+
+.background-vine {
+    z-index: 1;
+    opacity: 0.8; /* Adjust opacity if needed */
+}
